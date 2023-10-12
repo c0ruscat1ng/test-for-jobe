@@ -1,0 +1,33 @@
+.post__container{
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .post__number{
+    font-size: 20px;
+  }
+  .post__title{
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .post__text{
+    align-self: center;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .post__button{
+    align-self: center;
+    text-decoration: none;
+    background-color: #bdb58f;
+    color: #423f3f;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .5s ease;
+    font-size: 28px;
+    &:hover{
+      background:coral;
+      transform: scale(1.05);
+    }
+  }
+}
